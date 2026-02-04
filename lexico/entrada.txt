@@ -1,0 +1,23 @@
+# Exemplo de entrada para teste do léxico
+
+inteiro x = 10          # variável inteira
+real y = 20,5           # número real com vírgula
+letra c = 'a'           # caractere
+palavra s = "Olá mundo" # string
+
+se (x > 5) {
+    retorne x + y       # expressão válida
+}
+
+para i = 0; i < 10; i++ {
+    y = y + 1,0         # real
+}
+
+/* Comentário
+   em bloco com várias linhas */
+
+Funcao()               # função
+CONSTANTE123            # constante
+var_invalida            # erro: underscore inicial não permitido se você quiser
+rai_1                   # teste de identificador com underscore e número
+@caractereInvalido      # erro léxico

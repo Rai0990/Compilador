@@ -1,0 +1,58 @@
+/*
+ * Este é um bloco de comentário composto.
+ * O analisador deve ignorar tudo aqui.
+ */
+
+# Isto é um comentário de linha simples.
+
+# Declaração de constantes e variáveis
+inteiro MAX = 100;
+real PI = 3.14;
+inteiro x;
+letra c;
+palavra s;
+
+# Atribuições e Expressões
+x = 10;
+s = "Olá mundo! Com \"escape\" aqui.";
+c = '\n'; # Testando o caractere de escape
+
+# Teste de precedência de operadores
+# Deve ser calculado como: x = 10 + (2 * 5) -> x = 20
+x = 10 + 2 * 5; 
+
+# Teste de parênteses e operador unário
+x = (10 + 2) * -5; # x = -60
+
+# Teste do "recebe" e de constantes
+x recebe PI * 2;
+
+# Teste de Incremento e Decremento (como comandos)
+x++;
+x--;
+
+# Teste do comando 'enquanto'
+enquanto (x > 0 && x < MAX) {
+    x = x - 1;
+}
+
+# Teste do 'se' e 'senao'
+se (x == 0) {
+    x = 1;
+} senao {
+    x = -1;
+}
+
+# Teste do 'para' (FOR) com declaração interna
+para (inteiro i = 0; i < 10; i++) {
+    real j = i * PI;
+    
+    # Teste de 'if' sem 'else' e com comando único
+    se (j > 20.0)
+        retorne; # Comando 'retorne'
+}
+
+# Teste de negação lógica '!'
+se (!(x > 0)) {
+    s = "x nao e positivo";
+}

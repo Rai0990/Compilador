@@ -1,0 +1,58 @@
+# Teste de Estresse para o Analisador
+# Este código é SINTATICAMENTE VÁLIDO.
+# Deve resultar em "Análise Sintática: SUCESSO".
+
+inteiro a;
+inteiro b;
+inteiro c;
+real PI = 3.14;
+
+# 1. Teste de Precedência Máxima e Associatividade
+# Testa: Atribuição (direita), Unário, Aritmética, Relacional, Lógica.
+# Deve ser analisado como: a = (b = (!((-(PI * 5)) + c) > (a && b)))
+a = b = !-PI * 5 + c > a && b;
+
+# 2. Teste de Aninhamento de Comandos
+# Testa 'for' com 'while' dentro, que tem um 'if' com corpo único.
+para (inteiro i = 0; i < 100; i++) {
+    
+    inteiro k = i * 2; # Declaração dentro de um bloco
+
+    enquanto (k > 0) {
+        k--; # Expressão como comando
+        
+        # Teste do 'dangling else' (o 'senao' deve se ligar ao 'se(k < 10)')
+        se (k > 20)
+            se (k < 10)
+                k = 5;
+            senao 
+                k = 10;
+    }
+}
+
+# 3. Teste de Casos Especiais e Vazios
+# Testa o 'for' mais complexo e blocos vazios.
+
+para (a = b = 1; !(a == 10) || (b < 5); a++) {
+    # Bloco vazio
+}
+
+se (a > b) {
+    # Bloco com apenas um bloco dentro
+    {
+        # Bloco aninhado vazio
+    }
+}
+
+# 4. Teste de Expressões Complexas em Comandos
+# Testa 'return' e 'if' com a expressão mais complexa que criamos.
+retorne a = b = !-PI * 5 + c > a && b;
+
+# 5. Teste de todos os tipos de 'comando' juntos
+enquanto (1) {
+    inteiro z = 10;
+    z = z + 1;
+    se (z > 5) { retorne; }
+    z++;
+    para (z=0; z < 10; z++) { }
+}
