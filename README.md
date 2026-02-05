@@ -7,7 +7,6 @@ O sistema realiza a análise léxica e sintática completa, validando a gramáti
 ## 🚀 Destaques de Engenharia
 
 * **Arquitetura de Compilação:** Separação clara entre definições léxicas (Regex/Flex) e regras gramaticais (BNF/Bison).
-* **Containerização (Docker):** O projeto inclui um `Dockerfile` otimizado que automatiza a configuração do ambiente (instalação de GCC, bibliotecas e build tools), eliminando problemas de compatibilidade entre sistemas operacionais.
 * **Base Teórica:** Implementação baseada em Autômatos Finitos Determinísticos (DFA) e análise sintática *Bottom-Up* LR(1).
 
 ## 🛠️ Stack Tecnológica
