@@ -1,6 +1,6 @@
 # Analisador Léxico e Sintático (Containerized)
 
-Implementação de um compilador *front-end* robusto para uma linguagem estruturada baseada em Portugol. O projeto foi desenvolvido em **C** utilizando **Flex** e **Bison**, e conta com suporte total a **Docker** para garantir portabilidade e consistência de ambiente.
+Implementação de um compilador *front-end* robusto para uma linguagem estruturada baseada em Portugol. O projeto foi desenvolvido em **C** utilizando **Flex** e **Bison**.
 
 O sistema realiza a análise léxica e sintática completa, validando a gramática e reportando erros com precisão de linha e tipo de token.
 
