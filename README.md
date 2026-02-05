@@ -1,4 +1,4 @@
-# Analisador Léxico e Sintático (Containerized)
+# Analisador Léxico e Sintático 
 
 Implementação de um compilador *front-end* robusto para uma linguagem estruturada baseada em Portugol. O projeto foi desenvolvido em **C** utilizando **Flex** e **Bison**.
 
