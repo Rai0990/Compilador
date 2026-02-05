@@ -17,11 +17,3 @@ O sistema realiza a análise léxica e sintática completa, validando a gramáti
 * **Análise Sintática:** GNU Bison
 * **DevOps/Build:** Docker & Make
 
-## 🐳 Como Rodar (Via Docker - Recomendado)
-
-A maneira mais simples e limpa de executar o projeto, sem instalar dependências na sua máquina local.
-
-**1. Construir a Imagem**
-Gera o ambiente isolado com todas as ferramentas necessárias.
-```bash
-docker build -t compilador-portugol .
