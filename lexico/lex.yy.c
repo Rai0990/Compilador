@@ -540,8 +540,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lexicoTrabalho.l"
-#line 4 "lexicoTrabalho.l"
+#line 1 "Portugol.l"
+#line 4 "Portugol.l"
     #include <stdio.h>
     void print(char*);
 #line 548 "lex.yy.c"
@@ -762,7 +762,7 @@ YY_DECL
 		}
 
 	{
-#line 11 "lexicoTrabalho.l"
+#line 11 "Portugol.l"
 
 
 #line 769 "lex.yy.c"
@@ -834,230 +834,230 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 13 "lexicoTrabalho.l"
+#line 13 "Portugol.l"
 {print("TIPO inteiro");}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 14 "lexicoTrabalho.l"
+#line 14 "Portugol.l"
 {print("TIPO real");}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 15 "lexicoTrabalho.l"
+#line 15 "Portugol.l"
 {print("TIPO char");}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 16 "lexicoTrabalho.l"
+#line 16 "Portugol.l"
 {print("TIPO string");}
 	YY_BREAK
 case 5:
 /* rule 5 can match eol */
 YY_RULE_SETUP
-#line 18 "lexicoTrabalho.l"
+#line 18 "Portugol.l"
 {print("STRING");}
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 19 "lexicoTrabalho.l"
+#line 19 "Portugol.l"
 { print("CARACTERE"); }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 22 "lexicoTrabalho.l"
+#line 22 "Portugol.l"
 {print("KW if");}
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 23 "lexicoTrabalho.l"
+#line 23 "Portugol.l"
 {print("KW not");}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 24 "lexicoTrabalho.l"
+#line 24 "Portugol.l"
 {print("KW while");}
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 25 "lexicoTrabalho.l"
+#line 25 "Portugol.l"
 {print("KW for");}
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 26 "lexicoTrabalho.l"
+#line 26 "Portugol.l"
 {print("KW return");}
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 27 "lexicoTrabalho.l"
+#line 27 "Portugol.l"
 {print("KW atribuicao");}
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 28 "lexicoTrabalho.l"
+#line 28 "Portugol.l"
 {print("KW atribuicao");}
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 30 "lexicoTrabalho.l"
+#line 30 "Portugol.l"
 {print("FUNCAO");}
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 31 "lexicoTrabalho.l"
+#line 31 "Portugol.l"
 {print("CONSTANTE");}
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 32 "lexicoTrabalho.l"
+#line 32 "Portugol.l"
 {print("VARIAVEL");}
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 33 "lexicoTrabalho.l"
+#line 33 "Portugol.l"
 {print("INTEIRO");}
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 34 "lexicoTrabalho.l"
+#line 34 "Portugol.l"
 {print("REAL");}
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 36 "lexicoTrabalho.l"
+#line 36 "Portugol.l"
 { print("OP_REL IGUAL"); }
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 37 "lexicoTrabalho.l"
+#line 37 "Portugol.l"
 { print("OP_REL DIFERENTE"); }
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 38 "lexicoTrabalho.l"
+#line 38 "Portugol.l"
 { print("OP_REL MENOR OU IGUAL"); }
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 39 "lexicoTrabalho.l"
+#line 39 "Portugol.l"
 { print("OP_REL MAIOR OU IGUAL"); }
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
-#line 40 "lexicoTrabalho.l"
+#line 40 "Portugol.l"
 { print("OP_LOG E"); }
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
-#line 41 "lexicoTrabalho.l"
+#line 41 "Portugol.l"
 { print("OP_LOG OU"); }
 	YY_BREAK
 case 25:
 YY_RULE_SETUP
-#line 42 "lexicoTrabalho.l"
+#line 42 "Portugol.l"
 { print("OP_REL MENOR"); }
 	YY_BREAK
 case 26:
 YY_RULE_SETUP
-#line 43 "lexicoTrabalho.l"
+#line 43 "Portugol.l"
 { print("OP_REL MAIOR"); }
 	YY_BREAK
 case 27:
 YY_RULE_SETUP
-#line 44 "lexicoTrabalho.l"
+#line 44 "Portugol.l"
 { print("OP_ARIT ADD"); }
 	YY_BREAK
 case 28:
 YY_RULE_SETUP
-#line 45 "lexicoTrabalho.l"
+#line 45 "Portugol.l"
 { print("OP_ARIT SUB"); }
 	YY_BREAK
 case 29:
 YY_RULE_SETUP
-#line 46 "lexicoTrabalho.l"
+#line 46 "Portugol.l"
 { print("OP_ARIT MULTI"); }
 	YY_BREAK
 case 30:
 YY_RULE_SETUP
-#line 47 "lexicoTrabalho.l"
+#line 47 "Portugol.l"
 { print("OP_ARIT DIV"); }
 	YY_BREAK
 case 31:
 YY_RULE_SETUP
-#line 48 "lexicoTrabalho.l"
+#line 48 "Portugol.l"
 { print("OP_ARIT INC"); }
 	YY_BREAK
 case 32:
 YY_RULE_SETUP
-#line 51 "lexicoTrabalho.l"
+#line 51 "Portugol.l"
 {}
 	YY_BREAK
 case 33:
 /* rule 33 can match eol */
 YY_RULE_SETUP
-#line 52 "lexicoTrabalho.l"
+#line 52 "Portugol.l"
 {print("Delimitador de linha");}
 	YY_BREAK
 case 34:
 YY_RULE_SETUP
-#line 53 "lexicoTrabalho.l"
+#line 53 "Portugol.l"
 { print("DELIM_ABRE_PAR"); }
 	YY_BREAK
 case 35:
 YY_RULE_SETUP
-#line 54 "lexicoTrabalho.l"
+#line 54 "Portugol.l"
 { print("DELIM_FECHA_PAR"); }
 	YY_BREAK
 case 36:
 YY_RULE_SETUP
-#line 55 "lexicoTrabalho.l"
+#line 55 "Portugol.l"
 { print("DELIM_ABRE_CHAVE"); }
 	YY_BREAK
 case 37:
 YY_RULE_SETUP
-#line 56 "lexicoTrabalho.l"
+#line 56 "Portugol.l"
 { print("DELIM_FECHA_CHAVE"); }
 	YY_BREAK
 case 38:
 YY_RULE_SETUP
-#line 57 "lexicoTrabalho.l"
+#line 57 "Portugol.l"
 { print("DELIM_ABRE_COL"); }
 	YY_BREAK
 case 39:
 YY_RULE_SETUP
-#line 58 "lexicoTrabalho.l"
+#line 58 "Portugol.l"
 { print("DELIM_FECHA_COL"); }
 	YY_BREAK
 case 40:
 YY_RULE_SETUP
-#line 59 "lexicoTrabalho.l"
+#line 59 "Portugol.l"
 { print("DELIM_VIRGULA"); }
 	YY_BREAK
 case 41:
 YY_RULE_SETUP
-#line 60 "lexicoTrabalho.l"
+#line 60 "Portugol.l"
 { print("DELIM_PONTOEVIRGULA"); }
 	YY_BREAK
 case 42:
 YY_RULE_SETUP
-#line 63 "lexicoTrabalho.l"
+#line 63 "Portugol.l"
 { print("comentario simples");}
 	YY_BREAK
 case 43:
 /* rule 43 can match eol */
 YY_RULE_SETUP
-#line 64 "lexicoTrabalho.l"
+#line 64 "Portugol.l"
 {print("comentario composto");} 
 	YY_BREAK
 case 44:
 YY_RULE_SETUP
-#line 66 "lexicoTrabalho.l"
+#line 66 "Portugol.l"
 { print("ERRO caractere inesperado"); }
 	YY_BREAK
 case 45:
 YY_RULE_SETUP
-#line 69 "lexicoTrabalho.l"
+#line 69 "Portugol.l"
 ECHO;
 	YY_BREAK
 #line 1064 "lex.yy.c"
@@ -2077,7 +2077,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 69 "lexicoTrabalho.l"
+#line 69 "Portugol.l"
 
 
 void print(char* token){

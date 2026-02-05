@@ -1,0 +1,9 @@
+.git
+.vscode
+*.exe
+*.o
+*.out
+Dockerfile
+README.md
+*.pdf
+*.docx
