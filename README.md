@@ -14,5 +14,4 @@ O sistema realiza a análise léxica e sintática completa, validando a gramáti
 * **Linguagem:** C 
 * **Análise Léxica:** Flex 
 * **Análise Sintática:** GNU Bison
-* **DevOps/Build:** Docker & Make
 
